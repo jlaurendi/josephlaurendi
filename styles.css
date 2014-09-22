@@ -1,0 +1,67 @@
+html
+{
+
+}
+
+ 
+*
+{
+  font-family: "Cambria", "Gill Sans MT", sans-serif;
+}
+
+header, nav, #main_content, footer
+{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header
+{
+  text-align: center;
+  padding: 20px;
+}
+
+nav
+{
+  text-align: center;
+}
+
+#main_content
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 500px;
+  padding: 10px;
+}
+
+footer
+{
+  text-align: center;
+  font-size: 14px;
+}
+
+h1
+{
+  font-size: 30px;
+}
+
+
+nav a
+{
+
+  text-decoration: none;
+  border: solid 1px;
+  padding: 3px;
+  color: black;
+}
+
+nav a:hover
+{
+  color: #0000FF;
+}
+
+nav .selected:hover
+{
+  cursor: pointer;
+}

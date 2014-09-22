@@ -1,0 +1,134 @@
+html
+{
+
+}
+
+ 
+* {
+  font-family: "Cambria", "Gill Sans MT", sans-serif;
+}
+
+header, nav, #main_content, footer {
+  width: 50%;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  text-align: center;
+}
+
+#main_content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: solid 3px;
+  border-bottom: solid 3px;
+  min-height: 300px;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+ul li {
+  line-height: 25px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+nav ul ul {
+  display: none;
+}
+
+nav ul li:hover,
+nav ul li:hover ul,
+nav ul li ul li:hover {
+  position: relative;
+  background-color: #555;
+}
+
+nav ul li:hover a,
+nav ul li ul li:hover {
+  color: white;
+  font-weight: normal;
+}
+
+nav ul li:hover ul {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+
+nav ul li ul li {
+  display: block;
+  width: 100%;
+}
+
+nav ul li ul li a {
+  display: inline-block;
+  padding: 5px 0;
+  width: 100%;
+}
+
+nav ul li ul li a:hover {
+  background-color: black;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+nav .selected:hover {
+  cursor: pointer;
+}
+
+div.main-quote {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+a.bc {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin: 25px 0 35px;
+}
+
+a.bc img {
+  width: 300px;
+}
+
+p {
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+p.perseverance {
+  width: 80%;
+  text-align: center;
+  margin: 20px auto;
+}
